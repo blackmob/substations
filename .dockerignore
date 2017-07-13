@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+tsconfig.json
+tslint.json
+.babelrc
+.vscode
+nginx
+docker-compose.yml

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  weatherservice: 
+    build: './'
+    ports:
+      - "3000:3000"
+    links:
+      - redis
+    depends_on:
+      - redis      
+  nginxserver: 
+    build: './nginx'
+    links:
+      - weatherservice:weatherservice
+    ports:
+    - "80:80"
+  redis:
+      build: './redis'
+      ports:
+          - "6379:6379"

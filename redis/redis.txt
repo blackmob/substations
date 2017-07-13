@@ -1,0 +1,3528 @@
+*3
+$3
+SET
+$5
+Darnall
+$8
+{location: Darnall, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Orgreave
+$8
+{location: Orgreave, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Revill Lane
+$8
+{location: Revill Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Shirland Lane
+$8
+{location: Shirland Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "6",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stoke Street
+$8
+{location: Stoke Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barnsley
+$8
+{location: Barnsley, (kV): "11",Load(MVA): "21.5",Generation(MVA): "10.75",Load(MVA): "21.5",Max(MVA): "20",Min(MVA): "5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Barugh 11kV
+$8
+{location: Barugh 11kV, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elmhirst Lane 1
+$8
+{location: Elmhirst Lane 1, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "12",Min(MVA): "2",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Scissett
+$8
+{location: Scissett, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Smithy Green
+$8
+{location: Smithy Green, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "4",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Woolley
+$8
+{location: Woolley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beeston Royds 11kV
+$8
+{location: Beeston Royds 11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Gildersome Bradford Road
+$8
+{location: Gildersome Bradford Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15.5",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hedley Chase
+$8
+{location: Hedley Chase, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12.5",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Middleton Town Street
+$8
+{location: Middleton Town Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Morley
+$8
+{location: Morley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tingley
+$8
+{location: Tingley, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Whitehall Road 11kV
+$8
+{location: Whitehall Road 11kV, (kV): "11",Load(MVA): "19",Generation(MVA): "9.5",Load(MVA): "19",Max(MVA): "8",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Endike Lane
+$8
+{location: Endike Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+First Avenue
+$8
+{location: First Avenue, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "17",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Holme Upon Spalding Moor
+$8
+{location: Holme Upon Spalding Moor, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "6",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Norwood
+$8
+{location: Norwood, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Southgate
+$8
+{location: Southgate, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Southwood Road
+$8
+{location: Southwood Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Spark Mill Lane
+$8
+{location: Spark Mill Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Airedale Road
+$8
+{location: Airedale Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bingley 11kV
+$8
+{location: Bingley 11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Harden Lane
+$8
+{location: Harden Lane, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Haworth 1
+$8
+{location: Haworth 1, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "15",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Nab Wood
+$8
+{location: Nab Wood, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+South Street
+$8
+{location: South Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Blackburn Meadows 11kV
+$8
+{location: Blackburn Meadows 11kV, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "18",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brit. Oxygen Brinswth 
+$8
+{location: Brit. Oxygen Brinswth , (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Templeborough
+$8
+{location: Templeborough, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tinsley Wire
+$8
+{location: Tinsley Wire, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "9",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Corringham Road
+$8
+{location: Corringham Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Epworth
+$8
+{location: Epworth, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "8",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Harpswell
+$8
+{location: Harpswell, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "5.8",Max(MVA): "8",Min(MVA): "3",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Haxey
+$8
+{location: Haxey, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Lea Road
+$8
+{location: Lea Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "15.8",Max(MVA): "11",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Normanby
+$8
+{location: Normanby, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stow
+$8
+{location: Stow, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "6.5",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Balme Street
+$8
+{location: Balme Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Gaisby Lane
+$8
+{location: Gaisby Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Idle
+$8
+{location: Idle, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Killinghall Road
+$8
+{location: Killinghall Road, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "0",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Manchester Road
+$8
+{location: Manchester Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Moorside Road
+$8
+{location: Moorside Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Mount Street
+$8
+{location: Mount Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Shipley
+$8
+{location: Shipley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Audby Lane
+$8
+{location: Audby Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dunkeswick
+$8
+{location: Dunkeswick, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Fenton Lane
+$8
+{location: Fenton Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Leeds Road Collingham
+$8
+{location: Leeds Road Collingham, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "6",Min(MVA): "1.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Sherburn
+$8
+{location: Sherburn, (kV): "11",Load(MVA): "25",Generation(MVA): "12.5",Load(MVA): "25",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tadcaster
+$8
+{location: Tadcaster, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Warren Lane
+$8
+{location: Warren Lane, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "4.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Holderness
+$8
+{location: Holderness, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Salthouse Road
+$8
+{location: Salthouse Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tiverton Road
+$8
+{location: Tiverton Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15.5",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wawne Road
+$8
+{location: Wawne Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "7.5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bailiff Bridge
+$8
+{location: Bailiff Bridge, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brighouse 11kV
+$8
+{location: Brighouse 11kV, (kV): "11",Load(MVA): "12",Generation(MVA): "6",Load(MVA): "12",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Deighton
+$8
+{location: Deighton, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Lowfield
+$8
+{location: Lowfield, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "19",Max(MVA): "6",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Millroyd Street
+$8
+{location: Millroyd Street, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "14",Min(MVA): "3.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Snelsins Lane
+$8
+{location: Snelsins Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Spenborough
+$8
+{location: Spenborough, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Drax
+$8
+{location: Drax, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3.5",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Crowle
+$8
+{location: Crowle, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "6",Min(MVA): "1.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Goole
+$8
+{location: Goole, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Guardian Glass
+$8
+{location: Guardian Glass, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "2.5",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawcliffe
+$8
+{location: Rawcliffe, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "4",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Cornwall Street
+$8
+{location: Cornwall Street, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "39",Max(MVA): "18.51",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Armthorpe
+$8
+{location: Armthorpe, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "10",Min(MVA): "3",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Askern
+$8
+{location: Askern, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Austerfield
+$8
+{location: Austerfield, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Balby
+$8
+{location: Balby, (kV): "11",Load(MVA): "18.75",Generation(MVA): "11.5",Load(MVA): "18.75",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barnborough
+$8
+{location: Barnborough, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "-6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brodsworth
+$8
+{location: Brodsworth, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hickleton
+$8
+{location: Hickleton, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "6",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+ICI Fibres
+$8
+{location: ICI Fibres, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirk Sandall
+$8
+{location: Kirk Sandall, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Markham Gates
+$8
+{location: Markham Gates, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rockware
+$8
+{location: Rockware, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "11",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stainforth
+$8
+{location: Stainforth, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thorne
+$8
+{location: Thorne, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West End Lane
+$8
+{location: West End Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West Moor Park
+$8
+{location: West Moor Park, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "25",Max(MVA): "10",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wheatley Park
+$8
+{location: Wheatley Park, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Belmont Avenue
+$8
+{location: Belmont Avenue, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "17",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bentley
+$8
+{location: Bentley, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Greyfriars Road
+$8
+{location: Greyfriars Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Greyfriars Road 3 & 4
+$8
+{location: Greyfriars Road 3 & 4, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "8",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Jarratt Street
+$8
+{location: Jarratt Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Belthorpe Lane
+$8
+{location: Belthorpe Lane, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "4.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brett Street
+$8
+{location: Brett Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Burton Pidsea
+$8
+{location: Burton Pidsea, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3",Min(MVA): "-8.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Butterwick
+$8
+{location: Butterwick, (kV): "11",Load(MVA): "6.5",Generation(MVA): "6.5",Load(MVA): "6.5",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Driffield 11kV
+$8
+{location: Driffield 11kV, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hayton
+$8
+{location: Hayton, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hunmanby
+$8
+{location: Hunmanby, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirkburn
+$8
+{location: Kirkburn, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "6",Min(MVA): "0",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Marton Gate
+$8
+{location: Marton Gate, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "13",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sandhill Lane
+$8
+{location: Sandhill Lane, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Seaton
+$8
+{location: Seaton, (kV): "11",Load(MVA): "20",Generation(MVA): "10",Load(MVA): "20",Max(MVA): "18",Min(MVA): "4",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Commonside Lane
+$8
+{location: Commonside Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "17",Min(MVA): "8",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Normanton
+$8
+{location: Normanton, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Prince of Wales
+$8
+{location: Prince of Wales, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sharlston
+$8
+{location: Sharlston, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13.5",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wellington Street
+$8
+{location: Wellington Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Crown Street
+$8
+{location: Crown Street, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Four Lane Ends
+$8
+{location: Four Lane Ends, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Legrams Mill Lane
+$8
+{location: Legrams Mill Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawson Road
+$8
+{location: Rawson Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Saint Street
+$8
+{location: Saint Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "7",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Toller Lane
+$8
+{location: Toller Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Halifax 11kV
+$8
+{location: Halifax 11kV, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "39",Max(MVA): "25",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Burnleyville
+$8
+{location: Burnleyville, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Liversedge
+$8
+{location: Liversedge, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Nab Lane
+$8
+{location: Nab Lane, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "13",Min(MVA): "3",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+White Lee
+$8
+{location: White Lee, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Denholme
+$8
+{location: Denholme, (kV): "11",Load(MVA): "6.5",Generation(MVA): "6.5",Load(MVA): "6.5",Max(MVA): "3",Min(MVA): "-5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Furness Avenue
+$8
+{location: Furness Avenue, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Gibraltar Road
+$8
+{location: Gibraltar Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Queensbury
+$8
+{location: Queensbury, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Swan Bank Lane
+$8
+{location: Swan Bank Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thornton
+$8
+{location: Thornton, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Easington
+$8
+{location: Easington, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "6",Min(MVA): "-13",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hedon Road
+$8
+{location: Hedon Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hull East 11kV
+$8
+{location: Hull East 11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kingeo
+$8
+{location: Kingeo, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "7",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ottringham Road
+$8
+{location: Ottringham Road, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "0.31",Max(MVA): "0",Min(MVA): "0",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Patrington Road
+$8
+{location: Patrington Road, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "7",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Westcott Street
+$8
+{location: Westcott Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Withernsea
+$8
+{location: Withernsea, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "6",Min(MVA): "-5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elgar Road
+$8
+{location: Elgar Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Gibson Lane
+$8
+{location: Gibson Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Newport T1
+$8
+{location: Newport T1, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "10",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Skillings Lane
+$8
+{location: Skillings Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Eggborough
+$8
+{location: Eggborough, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ferrybridge
+$8
+{location: Ferrybridge, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "7",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+South Elmsall
+$8
+{location: South Elmsall, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Grimethorpe
+$8
+{location: Grimethorpe, (kV): "11",Load(MVA): "25",Generation(MVA): "12.5",Load(MVA): "25",Max(MVA): "4.5",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hemsworth
+$8
+{location: Hemsworth, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "8",Min(MVA): "2.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Ledston
+$8
+{location: Ledston, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Monkton
+$8
+{location: Monkton, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "5",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+South Kirkby
+$8
+{location: South Kirkby, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Convamore Road
+$8
+{location: Convamore Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Conyard Road
+$8
+{location: Conyard Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wesley Crescent
+$8
+{location: Wesley Crescent, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Burton Road
+$8
+{location: Burton Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "22.9",Max(MVA): "21",Min(MVA): "12",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Fish Dam Lane
+$8
+{location: Fish Dam Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stairfoot
+$8
+{location: Stairfoot, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "13.5",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hope
+$8
+{location: Hope, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "5",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Penistone
+$8
+{location: Penistone, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "-3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wheatacre Road
+$8
+{location: Wheatacre Road, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "8",Min(MVA): "2.5",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Barrow
+$8
+{location: Barrow, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "8",Min(MVA): "2",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Clough Lane
+$8
+{location: Clough Lane, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "2.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Eastfield Road
+$8
+{location: Eastfield Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "7",Max(MVA): "6",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Humber Road
+$8
+{location: Humber Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Queens Road
+$8
+{location: Queens Road, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "37",Max(MVA): "20",Min(MVA): "7.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Baslow Road
+$8
+{location: Baslow Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dronfield
+$8
+{location: Dronfield, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Greenhill
+$8
+{location: Greenhill, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "7",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Millhouses
+$8
+{location: Millhouses, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Woodseats
+$8
+{location: Woodseats, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Keighley 11kV
+$8
+{location: Keighley 11kV, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "39",Max(MVA): "16.02",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beal
+$8
+{location: Beal, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Carr Lane
+$8
+{location: Carr Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Smith Street
+$8
+{location: Smith Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "7.5",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Pollington
+$8
+{location: Pollington, (kV): "11",Load(MVA): "8.5",Generation(MVA): "8.5",Load(MVA): "8.5",Max(MVA): "8",Min(MVA): "3",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Weeland Road
+$8
+{location: Weeland Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "27",Min(MVA): "20",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Abbey Road
+$8
+{location: Abbey Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "9",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bramley
+$8
+{location: Bramley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Farnley Crescent
+$8
+{location: Farnley Crescent, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Fir Tree Lane
+$8
+{location: Fir Tree Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Iveson House
+$8
+{location: Iveson House, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West Park
+$8
+{location: West Park, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "9",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Whingate
+$8
+{location: Whingate, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Burley Street
+$8
+{location: Burley Street, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "34.8",Max(MVA): "22",Min(MVA): "7.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Clarendon Road
+$8
+{location: Clarendon Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Upper Basinghall Street
+$8
+{location: Upper Basinghall Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Allerton Hill T1
+$8
+{location: Allerton Hill T1, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "11.5",Max(MVA): "8",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Burmantofts
+$8
+{location: Burmantofts, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hillcrest
+$8
+{location: Hillcrest, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Knostrop
+$8
+{location: Knostrop, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "7",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Pontefract Lane 1-2
+$8
+{location: Pontefract Lane 1-2, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Selby Road
+$8
+{location: Selby Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+York Road
+$8
+{location: York Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Buslingthorpe Green
+$8
+{location: Buslingthorpe Green, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Carlton Hill
+$8
+{location: Carlton Hill, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Leylands Road
+$8
+{location: Leylands Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Moor Road
+$8
+{location: Moor Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "5.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dowker Street
+$8
+{location: Dowker Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "9",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Grove Street
+$8
+{location: Grove Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Honley
+$8
+{location: Honley, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Meltham
+$8
+{location: Meltham, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Oakes Road
+$8
+{location: Oakes Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Prospect Road
+$8
+{location: Prospect Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Slaithwaite
+$8
+{location: Slaithwaite, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Armouries Drive
+$8
+{location: Armouries Drive, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "10",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brookfield Street
+$8
+{location: Brookfield Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "9.5",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Clarence Road
+$8
+{location: Clarence Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Holbeck
+$8
+{location: Holbeck, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Leasowe Road
+$8
+{location: Leasowe Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stourton
+$8
+{location: Stourton, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "19.4",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sweet Street
+$8
+{location: Sweet Street, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "11",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Whitehall Road 2/3
+$8
+{location: Whitehall Road 2/3, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "3",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bramhope
+$8
+{location: Bramhope, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Chevin End
+$8
+{location: Chevin End, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "10",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hallam Street
+$8
+{location: Hallam Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirk Drive
+$8
+{location: Kirk Drive, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+North Avenue
+$8
+{location: North Avenue, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Pool
+$8
+{location: Pool, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Doughty Road
+$8
+{location: Doughty Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "20.9",Max(MVA): "22",Min(MVA): "5",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Grimsby Docks
+$8
+{location: Grimsby Docks, (kV): "7",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "1.5",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Marsden Road
+$8
+{location: Marsden Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "18",Max(MVA): "18",Min(MVA): "4",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Blue Boy Street
+$8
+{location: Blue Boy Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "9.5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Claywheels Lane
+$8
+{location: Claywheels Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "24",Min(MVA): "5",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+Crookesmoor Road
+$8
+{location: Crookesmoor Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Loxley Road
+$8
+{location: Loxley Road, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Penistone Road
+$8
+{location: Penistone Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawson Spring Road
+$8
+{location: Rawson Spring Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "15",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stannington Road
+$8
+{location: Stannington Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Gleadless Valley
+$8
+{location: Gleadless Valley, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Marmion Road
+$8
+{location: Marmion Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Norfolk Park
+$8
+{location: Norfolk Park, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Saxon Road
+$8
+{location: Saxon Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Snaithing Park Road
+$8
+{location: Snaithing Park Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Olympia Mills
+$8
+{location: Olympia Mills, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "16",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Selby 11kV
+$8
+{location: Selby 11kV, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "29",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thorpe Road
+$8
+{location: Thorpe Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Park Street
+$8
+{location: Park Street, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "39",Max(MVA): "13.05",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barnsley Road
+$8
+{location: Barnsley Road, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bellhouse Road
+$8
+{location: Bellhouse Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Newhall Road
+$8
+{location: Newhall Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stanley Street
+$8
+{location: Stanley Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stevenson Road
+$8
+{location: Stevenson Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "19.4",Max(MVA): "13",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawmarsh Road 1/2
+$8
+{location: Rawmarsh Road 1/2, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "39",Max(MVA): "23.57",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawmarsh Road 3/4
+$8
+{location: Rawmarsh Road 3/4, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "39",Max(MVA): "23.5",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rawdon
+$8
+{location: Rawdon, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rodley Lane
+$8
+{location: Rodley Lane, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "14",Min(MVA): "3",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Swinnow Moor
+$8
+{location: Swinnow Moor, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thornbury
+$8
+{location: Thornbury, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Varley Street
+$8
+{location: Varley Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "17",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ellifoot Lane
+$8
+{location: Ellifoot Lane, (kV): "11",Load(MVA): "0",Generation(MVA): "0",Load(MVA): "0.4",Max(MVA): "0",Min(MVA): "-7",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+YW Hull Road
+$8
+{location: YW Hull Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "6",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Firth Brown
+$8
+{location: Firth Brown, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hibaldstow
+$8
+{location: Hibaldstow, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Pasture Road South
+$8
+{location: Pasture Road South, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "13",Max(MVA): "10",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+South Ferriby
+$8
+{location: South Ferriby, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "21",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wrawby
+$8
+{location: Wrawby, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "16",Min(MVA): "8",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sculcoates
+$8
+{location: Sculcoates, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "39",Max(MVA): "27.06",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Billet Lane
+$8
+{location: Billet Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Flixborough
+$8
+{location: Flixborough, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Foxhills
+$8
+{location: Foxhills, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "18",Max(MVA): "16",Min(MVA): "6",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Station Road
+$8
+{location: Station Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "21",Min(MVA): "6",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Bottesford
+$8
+{location: Bottesford, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bridges Road
+$8
+{location: Bridges Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Arundel Street
+$8
+{location: Arundel Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ellin Street
+$8
+{location: Ellin Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "40",Max(MVA): "21",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Mansfield Road
+$8
+{location: Mansfield Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "16",Max(MVA): "14",Min(MVA): "2.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Park Hill
+$8
+{location: Park Hill, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Silver Street
+$8
+{location: Silver Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Victoria Street
+$8
+{location: Victoria Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "20",Min(MVA): "7.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barnoldswick
+$8
+{location: Barnoldswick, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "10",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bolton Road
+$8
+{location: Bolton Road, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "9",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Chelker Reservoir
+$8
+{location: Chelker Reservoir, (kV): "11",Load(MVA): "0",Generation(MVA): "0",Load(MVA): "8",Max(MVA): "4",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Cracoe
+$8
+{location: Cracoe, (kV): "11",Load(MVA): "12.5",Generation(MVA): "12.5",Load(MVA): "12.5",Max(MVA): "6",Min(MVA): "1.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Crosshills
+$8
+{location: Crosshills, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ilkley
+$8
+{location: Ilkley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ings Lane 11kV
+$8
+{location: Ings Lane 11kV, (kV): "11",Load(MVA): "0",Generation(MVA): "0",Load(MVA): "8",Max(MVA): "7",Min(MVA): "2.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Salterforth
+$8
+{location: Salterforth, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "14",Min(MVA): "4",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Skipton
+$8
+{location: Skipton, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "19.2",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elland
+$8
+{location: Elland, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hebden Bridge
+$8
+{location: Hebden Bridge, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "3.5",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Mytholmroyd
+$8
+{location: Mytholmroyd, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Salterhebble
+$8
+{location: Salterhebble, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "22",Min(MVA): "8",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Sowerby 33/11kV
+$8
+{location: Sowerby 33/11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Todmorden
+$8
+{location: Todmorden, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Birkby
+$8
+{location: Birkby, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dalton
+$8
+{location: Dalton, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "17",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Folly Hall
+$8
+{location: Folly Hall, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+St.Andrews Road 
+$8
+{location: St.Andrews Road , (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Yew Green Road
+$8
+{location: Yew Green Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dudley Hill
+$8
+{location: Dudley Hill, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Low Moor
+$8
+{location: Low Moor, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Odsal
+$8
+{location: Odsal, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "19.5",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Springmill Street
+$8
+{location: Springmill Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "6.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tong Street
+$8
+{location: Tong Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wibsey
+$8
+{location: Wibsey, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Stourton 132kV
+$8
+{location: Stourton 132kV, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "11.37",Min(MVA): "5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Fullerton Road
+$8
+{location: Fullerton Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Batley
+$8
+{location: Batley, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "22.9",Max(MVA): "22",Min(MVA): "5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Calder Wharf
+$8
+{location: Calder Wharf, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Denby Grange
+$8
+{location: Denby Grange, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "3.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hazelhead
+$8
+{location: Hazelhead, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "4",Min(MVA): "-10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Horbury
+$8
+{location: Horbury, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Mirfield
+$8
+{location: Mirfield, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Park Road 11kV
+$8
+{location: Park Road 11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "17.5",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Scholes
+$8
+{location: Scholes, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beighton 1&2
+$8
+{location: Beighton 1&2, (kV): "11",Load(MVA): "25",Generation(MVA): "12.5",Load(MVA): "25",Max(MVA): "22.5",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Costhorpe
+$8
+{location: Costhorpe, (kV): "11",Load(MVA): "10",Generation(MVA): "10",Load(MVA): "10",Max(MVA): "8",Min(MVA): "2",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Dinnington
+$8
+{location: Dinnington, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "16",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Edlington
+$8
+{location: Edlington, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hackenthorpe
+$8
+{location: Hackenthorpe, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "15.5",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Harworth 11kV
+$8
+{location: Harworth 11kV, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "4",Min(MVA): "-2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kiveton Park
+$8
+{location: Kiveton Park, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "10",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Mexborough 1&2
+$8
+{location: Mexborough 1&2, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+New Orchard Lane
+$8
+{location: New Orchard Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Silverwood
+$8
+{location: Silverwood, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "4.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tickhill Road
+$8
+{location: Tickhill Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Denby Dale Road
+$8
+{location: Denby Dale Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "10",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Durkar Low Lane
+$8
+{location: Durkar Low Lane, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Woodcock Street
+$8
+{location: Woodcock Street, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+York Street
+$8
+{location: York Street, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Alverthorpe Road
+$8
+{location: Alverthorpe Road, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kenmore Road
+$8
+{location: Kenmore Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "20",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Milton Place
+$8
+{location: Milton Place, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Outwood
+$8
+{location: Outwood, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Royds Lane
+$8
+{location: Royds Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Aldham
+$8
+{location: Aldham, (kV): "11",Load(MVA): "25",Generation(MVA): "12.5",Load(MVA): "25",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Dearne Road
+$8
+{location: Dearne Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "12",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ecclesfield
+$8
+{location: Ecclesfield, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "15",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elsecar
+$8
+{location: Elsecar, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "13",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Houghton Main
+$8
+{location: Houghton Main, (kV): "11",Load(MVA): "15.3",Generation(MVA): "12.5",Load(MVA): "15.3",Max(MVA): "8",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kilnhurst
+$8
+{location: Kilnhurst, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "18",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tankersley Park
+$8
+{location: Tankersley Park, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "21",Min(MVA): "9",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Wath-on-Dearne
+$8
+{location: Wath-on-Dearne, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "11",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Worsborough
+$8
+{location: Worsborough, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barwick
+$8
+{location: Barwick, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ninelands Lane
+$8
+{location: Ninelands Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Oakwood Lane
+$8
+{location: Oakwood Lane, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "11",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Roman Avenue
+$8
+{location: Roman Avenue, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Seacroft
+$8
+{location: Seacroft, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "10",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sledmere Garth
+$8
+{location: Sledmere Garth, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "8",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Blackburn Valley (* New Droppingwell Road)
+$8
+{location: Blackburn Valley (* New Droppingwell Road), (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "11",Min(MVA): "2.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Tinsley Park Road
+$8
+{location: Tinsley Park Road, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "14",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Waverley
+$8
+{location: Waverley, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "38",Max(MVA): "6",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Shepcote Tinsley
+$8
+{location: Shepcote Tinsley, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "30",Max(MVA): "6",Min(MVA): "3",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Belmont Covert
+$8
+{location: Belmont Covert, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "2",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Binbrook
+$8
+{location: Binbrook, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "2.5",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Caistor
+$8
+{location: Caistor, (kV): "11",Load(MVA): "9.5",Generation(MVA): "9.5",Load(MVA): "9.5",Max(MVA): "9",Min(MVA): "3",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+Grainthorpe
+$8
+{location: Grainthorpe, (kV): "11",Load(MVA): "7.5",Generation(MVA): "7.5",Load(MVA): "7.5",Max(MVA): "5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Keddington Road
+$8
+{location: Keddington Road, (kV): "11",Load(MVA): "12",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Louth
+$8
+{location: Louth, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+North Thoresby
+$8
+{location: North Thoresby, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3",Min(MVA): "0.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+South Reston
+$8
+{location: South Reston, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "3.5",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Walesby
+$8
+{location: Walesby, (kV): "11",Load(MVA): "8",Generation(MVA): "8",Load(MVA): "8",Max(MVA): "7",Min(MVA): "2.5",Demandclassification: "AMBER"}
+
+*3
+$3
+SET
+$5
+BTP
+$8
+{location: BTP, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "12",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Great Coates
+$8
+{location: Great Coates, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Scartho
+$8
+{location: Scartho, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "20",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Yarborough Road 11kV
+$8
+{location: Yarborough Road 11kV, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+ALFRED GELDER STREET
+$8
+{location: ALFRED GELDER STREET, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+CLARENDON STREET
+$8
+{location: CLARENDON STREET, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "17",Min(MVA): "6",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+COUNTY ROAD NORTH
+$8
+{location: COUNTY ROAD NORTH, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "18",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+HESSLE ROAD 1
+$8
+{location: HESSLE ROAD 1, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "11.5",Max(MVA): "12",Min(MVA): "4",Demandclassification: "RED"}
+
+*3
+$3
+SET
+$5
+NATIONAL AVENUE
+$8
+{location: NATIONAL AVENUE, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+PLANGEO
+$8
+{location: PLANGEO, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "24",Max(MVA): "16",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+WEST DOCKS
+$8
+{location: WEST DOCKS, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "23",Max(MVA): "16",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bradford West
+$8
+{location: Bradford West, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "886",Max(MVA): "432.58",Min(MVA): "225",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Creyke Beck
+$8
+{location: Creyke Beck, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "886",Max(MVA): "400.47",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Drax
+$8
+{location: Drax, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "295",Max(MVA): "52.47",Min(MVA): "1",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elland
+$8
+{location: Elland, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "659",Max(MVA): "355.06",Min(MVA): "100",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ferrybridge B
+$8
+{location: Ferrybridge B, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "864",Max(MVA): "277.82",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Grimsby West
+$8
+{location: Grimsby West, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "295",Max(MVA): "172.11",Min(MVA): "55",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Keadby
+$8
+{location: Keadby, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "590",Max(MVA): "343.86",Min(MVA): "50",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirkstall B
+$8
+{location: Kirkstall B, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "590",Max(MVA): "237.15",Min(MVA): "85",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Saltend
+$8
+{location: Saltend, (kV): "33",Load(MVA): "45",Generation(MVA): "45",Load(MVA): "50.8",Max(MVA): "6.28",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Skelton Grange
+$8
+{location: Skelton Grange, (kV): "132",Load(MVA): "240",Generation(MVA): "240",Load(MVA): "915",Max(MVA): "569.73",Min(MVA): "200",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West Melton - Thorpe Marsh
+$8
+{location: West Melton - Thorpe Marsh, (kV): "132",Load(MVA): "120",Generation(MVA): "120",Load(MVA): "696",Max(MVA): "344.35",Min(MVA): "40",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West Melton Section 3
+$8
+{location: West Melton Section 3, (kV): "132",Load(MVA): "180",Generation(MVA): "180",Load(MVA): "418",Max(MVA): "331.31",Min(MVA): "140",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Camblesforth
+$8
+{location: Camblesforth, (kV): "66",Load(MVA): "180",Generation(MVA): "180",Load(MVA): "216",Max(MVA): "36.16",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Ferrybridge A
+$8
+{location: Ferrybridge A, (kV): "66",Load(MVA): "180",Generation(MVA): "180",Load(MVA): "198",Max(MVA): "76.97",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Doncaster B/Thorpe Marsh
+$8
+{location: Doncaster B/Thorpe Marsh, (kV): "66",Load(MVA): "120",Generation(MVA): "120",Load(MVA): "223",Max(MVA): "148.8",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Attercliffe
+$8
+{location: Attercliffe, (kV): "33",Load(MVA): "60",Generation(MVA): "60",Load(MVA): "69",Max(MVA): "51.38",Min(MVA): "-5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Blackburn Meadows B
+$8
+{location: Blackburn Meadows B, (kV): "33",Load(MVA): "60",Generation(MVA): "60",Load(MVA): "78",Max(MVA): "43.56",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Doncaster Central
+$8
+{location: Doncaster Central, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "66.82",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Barugh 132kV
+$8
+{location: Barugh 132kV, (kV): "66",Load(MVA): "75",Generation(MVA): "75",Load(MVA): "98",Max(MVA): "67.76",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hunningley
+$8
+{location: Hunningley, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "44.65",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hunshelf
+$8
+{location: Hunshelf, (kV): "66",Load(MVA): "60",Generation(MVA): "60",Load(MVA): "156",Max(MVA): "73.5",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wakefield Monckton Road
+$8
+{location: Wakefield Monckton Road, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "50.4",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+West Melton
+$8
+{location: West Melton, (kV): "66",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "141",Max(MVA): "112.77",Min(MVA): "40",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Templeborough
+$8
+{location: Templeborough, (kV): "33",Load(MVA): "75",Generation(MVA): "75",Load(MVA): "98",Max(MVA): "22.7",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bingley 132kV
+$8
+{location: Bingley 132kV, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "58.7",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bradford
+$8
+{location: Bradford, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "90.3",Min(MVA): "30",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Girlington
+$8
+{location: Girlington, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "57.35",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Holmfield
+$8
+{location: Holmfield, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "62.98",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Menston
+$8
+{location: Menston, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "58.18",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Silsden 
+$8
+{location: Silsden , (kV): "33",Load(MVA): "45",Generation(MVA): "45",Load(MVA): "108",Max(MVA): "93",Min(MVA): "27",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beverley 
+$8
+{location: Beverley , (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "103.5",Max(MVA): "80",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bransholme
+$8
+{location: Bransholme, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "47.43",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Driffield
+$8
+{location: Driffield, (kV): "66",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "147",Max(MVA): "106.9",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hull West
+$8
+{location: Hull West, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "53.81",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hull South
+$8
+{location: Hull South, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "83.61",Min(MVA): "30",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Osgodby  3_4
+$8
+{location: Osgodby  3_4, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "123",Max(MVA): "48.9",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Brighouse
+$8
+{location: Brighouse, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "72.32",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Lindley
+$8
+{location: Lindley, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "74.67",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sowerby Bridge 
+$8
+{location: Sowerby Bridge , (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "73.12",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thornhill
+$8
+{location: Thornhill, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "114",Max(MVA): "99.37",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Bramham
+$8
+{location: Bramham, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "71.37",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Featherstone
+$8
+{location: Featherstone, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "71",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirkhaw Lane
+$8
+{location: Kirkhaw Lane, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "71.29",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Whinmoor
+$8
+{location: Whinmoor, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "65.5",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Humberston
+$8
+{location: Humberston, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "31.96",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Immingham
+$8
+{location: Immingham, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "61.81",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Moss Road
+$8
+{location: Moss Road, (kV): "33",Load(MVA): "45",Generation(MVA): "45",Load(MVA): "59",Max(MVA): "36.85",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Yarborough Road
+$8
+{location: Yarborough Road, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "57.25",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Jordanthorpe
+$8
+{location: Jordanthorpe, (kV): "33",Load(MVA): "100",Generation(MVA): "100",Load(MVA): "110",Max(MVA): "58.6",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Blyton
+$8
+{location: Blyton, (kV): "33",Load(MVA): "60",Generation(MVA): "60",Load(MVA): "78",Max(MVA): "51.64",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Santon
+$8
+{location: Santon, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "40",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Scunthorpe North
+$8
+{location: Scunthorpe North, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "150",Max(MVA): "76",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wold Newton
+$8
+{location: Wold Newton, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "99",Max(MVA): "33.5",Min(MVA): "5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beeston Royds 132kV
+$8
+{location: Beeston Royds 132kV, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "228",Max(MVA): "109.4",Min(MVA): "40",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirkstall C Section 2 5
+$8
+{location: Kirkstall C Section 2 5, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "52.4",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Neepsend
+$8
+{location: Neepsend, (kV): "33",Load(MVA): "120",Generation(MVA): "120",Load(MVA): "144",Max(MVA): "80.19",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Norton Lees
+$8
+{location: Norton Lees, (kV): "33",Load(MVA): "100",Generation(MVA): "100",Load(MVA): "110",Max(MVA): "62.4",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Pitsmoor B
+$8
+{location: Pitsmoor B, (kV): "33",Load(MVA): "100",Generation(MVA): "100",Load(MVA): "114",Max(MVA): "69.9",Min(MVA): "20",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Saltend North
+$8
+{location: Saltend North, (kV): "132",Load(MVA): "180",Generation(MVA): "180",Load(MVA): "216",Max(MVA): "90.5",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Hull East
+$8
+{location: Hull East, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "64.8",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Sheffield City
+$8
+{location: Sheffield City, (kV): "33",Load(MVA): "100",Generation(MVA): "100",Load(MVA): "114",Max(MVA): "80.16",Min(MVA): "30",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Heckmondwike
+$8
+{location: Heckmondwike, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "58.12",Max(MVA): "47.36",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Leeds East
+$8
+{location: Leeds East, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "79.96",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Leeds North
+$8
+{location: Leeds North, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "67.46",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Low Road
+$8
+{location: Low Road, (kV): "33",Load(MVA): "120",Generation(MVA): "120",Load(MVA): "228",Max(MVA): "87.07",Min(MVA): "35",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Rodley
+$8
+{location: Rodley, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "74.81",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Saint Andrews Road
+$8
+{location: Saint Andrews Road, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "64.88",Max(MVA): "52.87",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Staygate
+$8
+{location: Staygate, (kV): "33",Load(MVA): "120",Generation(MVA): "120",Load(MVA): "123",Max(MVA): "91.8",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wakefield North
+$8
+{location: Wakefield North, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "104",Max(MVA): "75.03",Min(MVA): "25",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Thurcroft
+$8
+{location: Thurcroft, (kV): "66",Load(MVA): "180",Generation(MVA): "180",Load(MVA): "216",Max(MVA): "141.2",Min(MVA): "30",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Wincobank
+$8
+{location: Wincobank, (kV): "33",Load(MVA): "100",Generation(MVA): "100",Load(MVA): "130",Max(MVA): "34.37",Min(MVA): "15",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Beeston Royds 6_7
+$8
+{location: Beeston Royds 6_7, (kV): "11",Load(MVA): "40",Generation(MVA): "20",Load(MVA): "26",Max(MVA): "8",Min(MVA): "4",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+HESSLE ROAD 2
+$8
+{location: HESSLE ROAD 2, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "11.5",Max(MVA): "8",Min(MVA): "3.5",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Elmhirst Lane 2
+$8
+{location: Elmhirst Lane 2, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "8.5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Allerton Hill T2
+$8
+{location: Allerton Hill T2, (kV): "11",Load(MVA): "23",Generation(MVA): "11.5",Load(MVA): "11.5",Max(MVA): "8",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Newport T2
+$8
+{location: Newport T2, (kV): "11",Load(MVA): "24",Generation(MVA): "12",Load(MVA): "12",Max(MVA): "0",Min(MVA): "0",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Scunthorpe South
+$8
+{location: Scunthorpe South, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "112",Max(MVA): "30.5",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Haworth 2
+$8
+{location: Haworth 2, (kV): "11",Load(MVA): "30",Generation(MVA): "15",Load(MVA): "15",Max(MVA): "5",Min(MVA): "2",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Halifax 33kV
+$8
+{location: Halifax 33kV, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "72",Max(MVA): "35",Min(MVA): "10",Demandclassification: "GREEN"}
+
+*3
+$3
+SET
+$5
+Kirkstall C Ring Road Horsforth
+$8
+{location: Kirkstall C Ring Road Horsforth, (kV): "33",Load(MVA): "90",Generation(MVA): "90",Load(MVA): "117",Max(MVA): "85",Min(MVA): "25",Demandclassification: "GREEN"}
+

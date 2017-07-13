@@ -1,0 +1,26 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "swagger example",
+  "main": "index.js",
+  "module": "index",
+  "scripts": {
+    "start": "node index.js",
+    "compile": "node ./node_modules/typescript/bin/tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/connect": "^3.4.30",
+    "@types/swagger-tools": "^0.10.2",
+    "connect": "^3.6.2",
+    "http": "0.0.0",
+    "swagger-tools": "^0.10.1",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  }
+}
