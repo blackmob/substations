@@ -5,4 +5,7 @@ tslint.json
 .babelrc
 .vscode
 nginx
+redis
+data
 docker-compose.yml
+**/*.ts

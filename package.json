@@ -12,9 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "@types/connect": "^3.4.30",
+    "@types/redis": "^2.6.0",
     "@types/swagger-tools": "^0.10.2",
     "connect": "^3.6.2",
     "http": "0.0.0",
+    "redis": "^2.7.1",
     "swagger-tools": "^0.10.1",
     "weather-js": "^2.0.0"
   },
