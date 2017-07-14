@@ -9,7 +9,7 @@ var weather = require('weather-js');
 
 export const getWeather = (req, res, next) => { 
     try{
-        const client = new ioredis(6379, '127.0.0.1')
+        const client = new ioredis("redis")
         let data = [];
         client.scanStream(req.swagger.params.location.value === "*" ? req.swagger.params.location.value : null).on("data", (stream)=> {
           data = [...data, ...stream]          

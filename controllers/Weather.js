@@ -5,8 +5,7 @@ var ioredis = require("ioredis");
 var weather = require('weather-js');
 exports.getWeather = function (req, res, next) {
     try {
-        var client_1 = new ioredis(6379, '127.0.0.1');
-        //const client = new Redis(6379, '127.0.0.1');
+        var client_1 = new ioredis("redis");
         var data_1 = [];
         client_1.scanStream(req.swagger.params.location.value === "*" ? req.swagger.params.location.value : null).on("data", function (stream) {
             data_1 = data_1.concat(stream);
