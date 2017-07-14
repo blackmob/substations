@@ -1,21 +1,26 @@
 'use strict';
 
-import * as st from "swagger-tools";
+let Redis = require('ioredis');
 
-import {createClient} from 'redis';
+import * as ioredis from 'ioredis';
+import * as st from "swagger-tools";
 
 var weather = require('weather-js');
 
 export const getWeather = (req, res, next) => { 
     try{
-        const client = createClient({  host: 'redis'});
-        client.KEYS(req.swagger.params.location.value, (err, result)=>{
-        res.setHeader('Content-Type', 'application/json');
-        res.end(JSON.stringify(result));
-    });
+        const client = new ioredis(6379, '127.0.0.1')
+        let data = [];
+        client.scanStream(req.swagger.params.location.value === "*" ? req.swagger.params.location.value : null).on("data", (stream)=> {
+          data = [...data, ...stream]          
+        }).on("end", () => {
+          client.mget(data,(err, results) => {
+            res.setHeader('Content-Type', 'application/json');
+            res.end(JSON.stringify(results));  
+          });        
+        });        
     }catch(e) {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(e || {}, null, 2));
     }
-
 };

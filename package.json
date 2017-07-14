@@ -12,11 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@types/connect": "^3.4.30",
-    "@types/redis": "^2.6.0",
+    "@types/ioredis": "0.0.23",
+    "@types/stream-to-array": "0.0.28",
     "@types/swagger-tools": "^0.10.2",
     "connect": "^3.6.2",
     "http": "0.0.0",
-    "redis": "^2.7.1",
+    "ioredis": "^3.1.1",
+    "stream-to-array": "^2.3.0",
     "swagger-tools": "^0.10.1",
     "weather-js": "^2.0.0"
   },
