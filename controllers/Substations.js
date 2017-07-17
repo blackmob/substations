@@ -4,7 +4,7 @@ var Redis = require('ioredis');
 var Promise = require("bluebird");
 var ioredis = require("ioredis");
 var weather = require('weather-js');
-exports.getWeather = function (req, res, next) {
+exports.getSubstations = function (req, res, next) {
     getSubStations(req.swagger.params.location.value).then(function (data) {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(data));
@@ -15,11 +15,11 @@ exports.getWeather = function (req, res, next) {
 };
 var getSubStations = function (searchString) {
     return new Promise(function (resolve, reject) {
-        var client = new ioredis("redis");
+        var client = new ioredis('redis');
         var data = [];
-        client.scanStream({ match: searchString }).on("data", function (stream) {
+        client.scanStream({ match: searchString }).on('data', function (stream) {
             data = data.concat(stream);
-        }).on("end", function () {
+        }).on('end', function () {
             var response = [];
             Promise.each(data, function (d) {
                 return client.hgetall(d).then(function (results) {
@@ -29,4 +29,4 @@ var getSubStations = function (searchString) {
         });
     });
 };
-//# sourceMappingURL=Weather.js.map
+//# sourceMappingURL=Substations.js.map
