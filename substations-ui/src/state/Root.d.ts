@@ -1,0 +1,3 @@
+interface Root {
+    substations : SubStations    
+}

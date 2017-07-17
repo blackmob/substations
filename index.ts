@@ -1,11 +1,12 @@
 'use strict';
 
+import * as cors from 'cors';
 import * as createServer from 'connect';
 import * as http from 'http';
 
 import {initializeMiddleware} from 'swagger-tools';
 
-var serverPort = 3000;
+var serverPort = 3001;
 
 // swaggerRouter configuration
 var options = {
@@ -19,7 +20,7 @@ var swaggerDoc = require('./api/swagger.json');
 // Initialize the Swagger middleware
 initializeMiddleware(swaggerDoc, function (middleware) {
   const app = createServer();
-
+  app.use(cors());
   // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
   app.use(middleware.swaggerMetadata());
 

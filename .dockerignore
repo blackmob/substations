@@ -8,4 +8,5 @@ nginx
 redis
 data
 docker-compose.yml
+substations-ui
 **/*.ts

@@ -1,9 +1,10 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+var cors = require("cors");
 var createServer = require("connect");
 var http = require("http");
 var swagger_tools_1 = require("swagger-tools");
-var serverPort = 3000;
+var serverPort = 3001;
 // swaggerRouter configuration
 var options = {
     controllers: './controllers',
@@ -14,6 +15,7 @@ var swaggerDoc = require('./api/swagger.json');
 // Initialize the Swagger middleware
 swagger_tools_1.initializeMiddleware(swaggerDoc, function (middleware) {
     var app = createServer();
+    app.use(cors());
     // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
     app.use(middleware.swaggerMetadata());
     // Validate Swagger requests
