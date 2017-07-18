@@ -3,7 +3,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Redis = require('ioredis');
 var Promise = require("bluebird");
 var ioredis = require("ioredis");
-var weather = require('weather-js');
 exports.getSubstations = function (req, res, next) {
     getSubStations(req.swagger.params.location.value).then(function (data) {
         res.setHeader('Content-Type', 'application/json');

@@ -6,8 +6,6 @@ import * as Promise from 'bluebird';
 import * as ioredis from 'ioredis';
 import * as st from "swagger-tools";
 
-var weather = require('weather-js');
-
 export const getSubstations = (req, res, next) => { 
       getSubStations(req.swagger.params.location.value).then(data=> {
         res.setHeader('Content-Type', 'application/json');

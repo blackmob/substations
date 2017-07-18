@@ -14,6 +14,7 @@ import {
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
+import TextField from 'material-ui/TextField';
 import {bindActionCreators} from 'redux';
 import { connect } from 'react-redux';
 import {deepOrange500} from 'material-ui/styles/colors';
@@ -43,6 +44,9 @@ const styles = {
     color: 'rgb(255, 255, 255)',
     backgroundColor: 'green'
   },  
+  textField: {
+    marginLeft: 20,
+  }
 };
 
 
@@ -64,18 +68,24 @@ class App extends React.Component<AppProps, any> {
     }
 
   handleTouchTap = () => {
-      return this.props.actions.getSubstations('*D*');
+      return this.props.actions.getSubstations();
     }
+
+  handleSearchValueOnChange = (value: string) =>{
+    return this.props.actions.searchFilterChanged(value);
+  }
+
   render() {
     const {substations} = this.props;
     return (
     <MuiThemeProvider muiTheme={muiTheme}>
         <div style={styles.container}>
+          <TextField hintText="Search For Sub Stations" style={styles.textField} underlineShow={false} onChange={(e, value) => {this.handleSearchValueOnChange(value)}}/>
           <RaisedButton
-            label="Fetch Substation Data"
+            label="Fetch Data"
             secondary={true}
             onTouchTap={this.handleTouchTap}
-          />
+          />          
         <Table >
             <TableHeader>
               <TableRow>
@@ -88,7 +98,7 @@ class App extends React.Component<AppProps, any> {
             </TableHeader>
             <TableBody>
               {substations.map(c=>
-                  <TableRow>
+                  <TableRow key={c.SubstationName}>
                     <TableRowColumn>{c.SubstationName}</TableRowColumn>
                     {c.Demandclassification === 'RED'? <TableRowColumn style={styles.red}>{c.Demandclassification}</TableRowColumn> : <TableRowColumn style={styles.green}>{c.Demandclassification}</TableRowColumn>}
                     <TableRowColumn>{c.kV}</TableRowColumn>

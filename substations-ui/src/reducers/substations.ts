@@ -17,5 +17,10 @@ export default handleActions<SubStations, SubStations>({
         return {
             ...state, ...action.payload    
         };
-    }
+    },
+    [types.SEARCH_FILTER_CHANGED]: (state: SubStations, action): SubStations => {
+        return {
+            ...state, ...action.payload    
+        };
+    }    
 }, initialState);

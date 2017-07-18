@@ -1,6 +1,6 @@
 version: '3'
-services:
-  weatherservice: 
+services: 
+  substationsservice: 
     build: './'
     ports:
       - "3001:3001"
@@ -12,9 +12,11 @@ services:
   nginxserver: 
     build: './nginx'
     links:
-      - weatherservice:weatherservice
+      - substationsservice:substationsservice
     ports:
     - "80:80"
+    volumes:
+    - ./substations-ui/build:/substations-ui
   redis:
       image: 'redis'
       ports:

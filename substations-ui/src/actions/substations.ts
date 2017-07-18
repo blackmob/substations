@@ -6,11 +6,13 @@ import {createAction} from 'redux-actions';
 
 export const substationsReceived = createAction(types.SUBSTATIONS_RECEIVED, (substations : SubstationModel[]) => { return {substations: substations}});
 export const substationsRequested = createAction(types.SUBSTATIONS_REQUESTED);
+export const searchFilterChanged = createAction(types.SEARCH_FILTER_CHANGED, (value:string) => {return {filter : value}});
 
-export const getSubstations = (search : string) :ThunkAction<Promise<any[]>,Root,null> => {
+export const getSubstations = () :ThunkAction<Promise<any[]>,Root,null> => {
    return (dispatch: Dispatch<Root>, getState: Function) => {
-        dispatch(substationsRequested);  
-        return fetch('http://localhost/api/substation?location=' + search, {
+        dispatch(substationsRequested); 
+        const rootState: Root = getState(); 
+        return fetch('http://localhost/api/substation?location=' + rootState.substations.filter, {
                 method: 'GET'
             }).then((json) => {
                  return json.json().then((data : SubstationModel[]) => {                     

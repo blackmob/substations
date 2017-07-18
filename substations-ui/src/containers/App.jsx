@@ -35,8 +35,13 @@ var styles = {
         flexWrap: 'nowrap',
         overflowX: 'auto',
     },
-    titleStyle: {
-        color: 'rgb(0, 188, 212)',
+    red: {
+        color: 'rgb(255, 255, 255)',
+        backgroundColor: 'red'
+    },
+    green: {
+        color: 'rgb(255, 255, 255)',
+        backgroundColor: 'green'
     },
 };
 var muiTheme = getMuiTheme_1.default({
@@ -73,7 +78,7 @@ var App = (function (_super) {
               {substations.map(function (c) {
             return <Table_1.TableRow>
                     <Table_1.TableRowColumn>{c.SubstationName}</Table_1.TableRowColumn>
-                    <Table_1.TableRowColumn style={styles.titleStyle}>{c.Demandclassification}</Table_1.TableRowColumn>
+                    {c.Demandclassification === 'RED' ? <Table_1.TableRowColumn style={styles.red}>{c.Demandclassification}</Table_1.TableRowColumn> : <Table_1.TableRowColumn style={styles.green}>{c.Demandclassification}</Table_1.TableRowColumn>}
                     <Table_1.TableRowColumn>{c.kV}</Table_1.TableRowColumn>
                     <Table_1.TableRowColumn>{c.LoadMVA}</Table_1.TableRowColumn>
                     <Table_1.TableRowColumn>{c.GenerationMVA}</Table_1.TableRowColumn>

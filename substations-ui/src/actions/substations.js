@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var types = require("./Types");
 var redux_actions_1 = require("redux-actions");
-exports.substationsReceived = redux_actions_1.createAction(types.SUBSTATIONS_RECEIVED, function (substations) { return substations; });
+exports.substationsReceived = redux_actions_1.createAction(types.SUBSTATIONS_RECEIVED, function (substations) { return { substations: substations }; });
 exports.substationsRequested = redux_actions_1.createAction(types.SUBSTATIONS_REQUESTED);
 exports.getSubstations = function (search) {
     return function (dispatch, getState) {
