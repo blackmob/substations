@@ -1,5 +1,3 @@
-import './App.css';
-
 import * as Actions from '../actions/substations';
 import * as React from 'react';
 
@@ -11,44 +9,15 @@ import {
   TableRow,
   TableRowColumn,
 } from 'material-ui/Table';
+import {green900, orange900, red900} from 'material-ui/styles/colors';
 
+import FontIcon from 'material-ui/FontIcon';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
+import Nav from '../components/Nav';
 import {bindActionCreators} from 'redux';
 import { connect } from 'react-redux';
 import {deepOrange500} from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-
-const styles = {
-  container: {
-    textAlign: 'center',
-    paddingTop: 200,
-  },
-
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-  },
-  gridList: {
-    display: 'flex',
-    flexWrap: 'nowrap',
-    overflowX: 'auto',
-  },
-  red: {
-    color: 'rgb(255, 255, 255)',
-    backgroundColor: 'red'
-  },
-  green: {
-    color: 'rgb(255, 255, 255)',
-    backgroundColor: 'green'
-  },  
-  textField: {
-    marginLeft: 20,
-  }
-};
-
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -71,21 +40,28 @@ class App extends React.Component<AppProps, any> {
       return this.props.actions.getSubstations();
     }
 
-  handleSearchValueOnChange = (value: string) =>{
+  handleSearchValueOnChange = (e : any, value: string) =>{
     return this.props.actions.searchFilterChanged(value);
+  }
+
+  getClassification = (classification: string) => {
+      switch(classification){
+        case 'RED' :
+          return <TableRowColumn><FontIcon className='material-icons' color={red900}>sentiment_dissatisfied</FontIcon> {classification}</TableRowColumn> 
+        case 'AMBER':
+          return <TableRowColumn><FontIcon className='material-icons' color={orange900}>sentiment_neutral</FontIcon> {classification}</TableRowColumn> 
+        case 'GREEN':
+        default: 
+          return <TableRowColumn><FontIcon className='material-icons' color={green900}>sentiment_satisfied</FontIcon> {classification}</TableRowColumn>;          
+      }
   }
 
   render() {
     const {substations} = this.props;
     return (
-    <MuiThemeProvider muiTheme={muiTheme}>
-        <div style={styles.container}>
-          <TextField hintText="Search For Sub Stations" style={styles.textField} underlineShow={false} onChange={(e, value) => {this.handleSearchValueOnChange(value)}}/>
-          <RaisedButton
-            label="Fetch Data"
-            secondary={true}
-            onTouchTap={this.handleTouchTap}
-          />          
+    <MuiThemeProvider muiTheme={muiTheme}>            
+        <div>          
+          <Nav onSearchValueOnChange={this.handleSearchValueOnChange} onTouchTap={this.handleTouchTap}/>        
         <Table >
             <TableHeader>
               <TableRow>
@@ -100,7 +76,7 @@ class App extends React.Component<AppProps, any> {
               {substations.map(c=>
                   <TableRow key={c.SubstationName}>
                     <TableRowColumn>{c.SubstationName}</TableRowColumn>
-                    {c.Demandclassification === 'RED'? <TableRowColumn style={styles.red}>{c.Demandclassification}</TableRowColumn> : <TableRowColumn style={styles.green}>{c.Demandclassification}</TableRowColumn>}
+                    {this.getClassification(c.Demandclassification)}
                     <TableRowColumn>{c.kV}</TableRowColumn>
                     <TableRowColumn>{c.LoadMVA}</TableRowColumn>
                     <TableRowColumn >{c.GenerationMVA}</TableRowColumn>

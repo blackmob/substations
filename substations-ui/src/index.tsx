@@ -1,4 +1,5 @@
 import './index.css';
+import './fonts/material-icons.css';
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
