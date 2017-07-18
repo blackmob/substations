@@ -1,4 +1,4 @@
-import * as types from '../actions/Types'
+import * as types from '../actions/Types';
 
 import { handleActions } from 'redux-actions';
 

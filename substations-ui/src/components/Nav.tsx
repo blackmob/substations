@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
+import { Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle } from 'material-ui/Toolbar';
 
 import ActionSearch from 'material-ui/svg-icons/action/search';
 import FontIcon from 'material-ui/FontIcon';
@@ -13,15 +13,14 @@ const styles = {
   }
 };
 
-interface NavProps{
+interface NavProps {
     onTouchTap: any;
     onSearchValueOnChange: any;
 }
 
-
 export default class Nav extends React.Component<NavProps, any> {
 
-    constructor(props : any, context : any) {
+    constructor(props: NavProps, context: {}) {
         super(props, context);
     }
 
@@ -31,17 +30,22 @@ export default class Nav extends React.Component<NavProps, any> {
     return (
       <Toolbar>
         <ToolbarGroup>
-          <ToolbarTitle text="Substations" />
-          <FontIcon className="muidocs-icon-custom-sort" />
-          <ToolbarSeparator />          
-          <TextField hintText='Search For Sub Stations' style={styles.textField} underlineShow={false} onChange={onSearchValueOnChange}/>
-          <RaisedButton
-            label='Search'
-            secondary={true}
-            onTouchTap={onTouchTap}
-            labelPosition="after"
-            icon={<ActionSearch/>}
-          /> 
+          <ToolbarTitle text='Substations' />
+          <FontIcon className='muidocs-icon-custom-sort' />
+          <ToolbarSeparator />
+            <TextField 
+              hintText='Search For Sub Stations' 
+              style={styles.textField}
+              underlineShow={false}
+              onChange={onSearchValueOnChange}
+            />          
+            <RaisedButton
+              label='Search'
+              secondary={true}
+              onTouchTap={onTouchTap}
+              labelPosition='after'
+              icon={<ActionSearch/>}
+            /> 
         </ToolbarGroup>
       </Toolbar>
     );

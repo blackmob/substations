@@ -9,14 +9,14 @@ import {
   TableRow,
   TableRowColumn,
 } from 'material-ui/Table';
-import {green900, orange900, red900} from 'material-ui/styles/colors';
+import { green900, orange900, red900 } from 'material-ui/styles/colors';
 
 import FontIcon from 'material-ui/FontIcon';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Nav from '../components/Nav';
-import {bindActionCreators} from 'redux';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import {deepOrange500} from 'material-ui/styles/colors';
+import { deepOrange500 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const muiTheme = getMuiTheme({
@@ -25,44 +25,52 @@ const muiTheme = getMuiTheme({
   },
 });
 
-
 interface AppProps {
-    substations: SubstationModel[];
-    actions: any;
-};
+  substations: SubstationModel[];
+  actions: any;
+}
 
 class App extends React.Component<AppProps, any> {
-   constructor(props : any, context : any) {
-        super(props, context);
-    }
+  constructor(props: any, context: any) {
+    super(props, context);
+  }
 
   handleTouchTap = () => {
-      return this.props.actions.getSubstations();
-    }
+    return this.props.actions.getSubstations();
+  }
 
-  handleSearchValueOnChange = (e : any, value: string) =>{
+  handleSearchValueOnChange = (e: any, value: string) => {
     return this.props.actions.searchFilterChanged(value);
   }
 
   getClassification = (classification: string) => {
-      switch(classification){
-        case 'RED' :
-          return <TableRowColumn><FontIcon className='material-icons' color={red900}>sentiment_dissatisfied</FontIcon> {classification}</TableRowColumn> 
-        case 'AMBER':
-          return <TableRowColumn><FontIcon className='material-icons' color={orange900}>sentiment_neutral</FontIcon> {classification}</TableRowColumn> 
-        case 'GREEN':
-        default: 
-          return <TableRowColumn><FontIcon className='material-icons' color={green900}>sentiment_satisfied</FontIcon> {classification}</TableRowColumn>;          
-      }
+    switch (classification) {
+      case 'RED':
+        return (
+        <TableRowColumn>
+          <FontIcon className='material-icons' color={red900}>sentiment_dissatisfied</FontIcon> {classification}
+        </TableRowColumn>);
+      case 'AMBER':
+        return (
+        <TableRowColumn>
+          <FontIcon className='material-icons' color={orange900}>sentiment_neutral</FontIcon> {classification}
+        </TableRowColumn>);
+      case 'GREEN':
+      default:
+        return (
+        <TableRowColumn>
+          <FontIcon className='material-icons' color={green900}>sentiment_satisfied</FontIcon> {classification}
+        </TableRowColumn>);
+    }
   }
 
   render() {
-    const {substations} = this.props;
+    const { substations } = this.props;
     return (
-    <MuiThemeProvider muiTheme={muiTheme}>            
-        <div>          
-          <Nav onSearchValueOnChange={this.handleSearchValueOnChange} onTouchTap={this.handleTouchTap}/>        
-        <Table >
+      <MuiThemeProvider muiTheme={muiTheme}>
+        <div>
+          <Nav onSearchValueOnChange={this.handleSearchValueOnChange} onTouchTap={this.handleTouchTap} />
+          <Table >
             <TableHeader>
               <TableRow>
                 <TableHeaderColumn>Substation Name</TableHeaderColumn>
@@ -73,14 +81,14 @@ class App extends React.Component<AppProps, any> {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {substations.map(c=>
-                  <TableRow key={c.SubstationName}>
-                    <TableRowColumn>{c.SubstationName}</TableRowColumn>
-                    {this.getClassification(c.Demandclassification)}
-                    <TableRowColumn>{c.kV}</TableRowColumn>
-                    <TableRowColumn>{c.LoadMVA}</TableRowColumn>
-                    <TableRowColumn >{c.GenerationMVA}</TableRowColumn>
-                  </TableRow>
+              {substations.map(c =>
+                <TableRow key={c.SubstationName}>
+                  <TableRowColumn>{c.SubstationName}</TableRowColumn>
+                  {this.getClassification(c.Demandclassification)}
+                  <TableRowColumn>{c.kV}</TableRowColumn>
+                  <TableRowColumn>{c.LoadMVA}</TableRowColumn>
+                  <TableRowColumn >{c.GenerationMVA}</TableRowColumn>
+                </TableRow>
               )}
             </TableBody>
           </Table>
@@ -91,16 +99,15 @@ class App extends React.Component<AppProps, any> {
 }
 
 function mapStateToProps(state: Root) {
-    return {
-        substations: state.substations.substations
-    };
+  return {
+    substations: state.substations.substations
+  };
 }
 
-function mapDispatchToProps(dispatch : any) {
-    return {
-        actions: bindActionCreators(Actions as any, dispatch)
-    };
+function mapDispatchToProps(dispatch: any) {
+  return {
+    actions: bindActionCreators(Actions as any, dispatch)
+  };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
-
