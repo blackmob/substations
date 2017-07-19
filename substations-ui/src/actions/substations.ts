@@ -15,7 +15,7 @@ export const searchFilterChanged = createAction(
 export const getSubstations = (): ThunkAction<Promise<SubstationModel[]>, Root, null> => {
     return (dispatch: Dispatch<Root>, getState: Function) => {
         dispatch(substationsRequested);
-        const rootState: Root = getState();
+        const rootState: Root = getState();  
         return fetch(`http://localhost/api/substation?location=${rootState.substations.filter}`, {
             method: 'GET'
         }).then((json) => {

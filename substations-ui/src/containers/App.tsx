@@ -19,6 +19,10 @@ import { connect } from 'react-redux';
 import { deepOrange500 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
+const styles = {
+  container : {paddingTop: 64}
+}
+
 const muiTheme = getMuiTheme({
   palette: {
     accent1Color: deepOrange500,
@@ -27,6 +31,7 @@ const muiTheme = getMuiTheme({
 
 interface AppProps {
   substations: SubstationModel[];
+  filter: string;
   actions: any;
 }
 
@@ -65,11 +70,12 @@ class App extends React.Component<AppProps, any> {
   }
 
   render() {
-    const { substations } = this.props;
+    const { substations, filter } = this.props;
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
         <div>
-          <Nav onSearchValueOnChange={this.handleSearchValueOnChange} onTouchTap={this.handleTouchTap} />
+          <Nav onSearchValueOnChange={this.handleSearchValueOnChange} onTouchTap={this.handleTouchTap} filter={filter} />
+          <div style={styles.container}>
           <Table >
             <TableHeader>
               <TableRow>
@@ -92,6 +98,7 @@ class App extends React.Component<AppProps, any> {
               )}
             </TableBody>
           </Table>
+          </div>
         </div>
       </MuiThemeProvider>
     );
@@ -100,7 +107,8 @@ class App extends React.Component<AppProps, any> {
 
 function mapStateToProps(state: Root) {
   return {
-    substations: state.substations.substations
+    substations: state.substations.substations,
+    filter: state.substations.filter
   };
 }
 

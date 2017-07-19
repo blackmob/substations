@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var cors = require("cors");
 var createServer = require("connect");
 var http = require("http");
+var winston = require("winston");
 var swagger_tools_1 = require("swagger-tools");
 var serverPort = 3001;
 // swaggerRouter configuration
@@ -12,6 +13,13 @@ var options = {
 };
 // The Swagger document (require it, build it programmatically, fetch it from a URL, ...)
 var swaggerDoc = require('./api/swagger.json');
+winston.add(winston.transports.File, {
+    filename: 'substations-api.log',
+    level: 'info',
+    json: true,
+    eol: 'rn',
+    timestamp: true
+});
 // Initialize the Swagger middleware
 swagger_tools_1.initializeMiddleware(swaggerDoc, function (middleware) {
     var app = createServer();

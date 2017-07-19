@@ -3,6 +3,7 @@
 import * as cors from 'cors';
 import * as createServer from 'connect';
 import * as http from 'http';
+import * as winston from 'winston';
 
 import {initializeMiddleware} from 'swagger-tools';
 
@@ -16,6 +17,15 @@ var options = {
 
 // The Swagger document (require it, build it programmatically, fetch it from a URL, ...)
 var swaggerDoc = require('./api/swagger.json');
+
+winston.add(winston.transports.File, { 
+  filename: 'substations-api.log',
+  level: 'info',
+  json: true,
+  eol: 'rn', // for Windows, or `eol: ‘n’,` for *NIX OSs
+  timestamp: true
+});
+
 
 // Initialize the Swagger middleware
 initializeMiddleware(swaggerDoc, function (middleware) {

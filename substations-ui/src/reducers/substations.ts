@@ -3,7 +3,7 @@ import * as types from '../actions/Types';
 import { handleActions } from 'redux-actions';
 
 const initialState: SubStations = {
-    filter: '*',
+    filter: '',
     substations: []
 };
 

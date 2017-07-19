@@ -1,11 +1,17 @@
 import * as React from 'react';
 
-import { Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle } from 'material-ui/Toolbar';
-
 import ActionSearch from 'material-ui/svg-icons/action/search';
-import FontIcon from 'material-ui/FontIcon';
+import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
+
+//import { Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle } from 'material-ui/Toolbar';
+
+
+
+//import FontIcon from 'material-ui/FontIcon';
+
+
 
 const styles = {
   textField: {
@@ -14,6 +20,7 @@ const styles = {
 };
 
 interface NavProps {
+    filter: string;
     onTouchTap: any;
     onSearchValueOnChange: any;
 }
@@ -25,15 +32,14 @@ export default class Nav extends React.Component<NavProps, any> {
     }
 
   render() {
-    const {onTouchTap, onSearchValueOnChange} = this.props;
-
+    const {onTouchTap, onSearchValueOnChange, filter} = this.props;
     return (
-      <Toolbar>
-        <ToolbarGroup>
-          <ToolbarTitle text='Substations' />
-          <FontIcon className='muidocs-icon-custom-sort' />
-          <ToolbarSeparator />
-            <TextField 
+    <AppBar
+        style={{ position: "fixed" }} 
+        title={<span>Sub stations</span>}
+        iconElementRight={
+            <div><TextField 
+              value={filter}
               hintText='Search For Sub Stations' 
               style={styles.textField}
               underlineShow={false}
@@ -41,13 +47,38 @@ export default class Nav extends React.Component<NavProps, any> {
             />          
             <RaisedButton
               label='Search'
-              secondary={true}
+              secondary={true}             
               onTouchTap={onTouchTap}
               labelPosition='after'
+              primary={true}
               icon={<ActionSearch/>}
-            /> 
-        </ToolbarGroup>
-      </Toolbar>
+            /></div>
+        }
+      >
+      </AppBar>
+
+      // <Toolbar>
+      //   <ToolbarGroup>
+      //     <ToolbarTitle text='Substations' />
+      //     <FontIcon className='muidocs-icon-custom-sort' />
+      //     <ToolbarSeparator />
+      //       <TextField 
+      //         value={filter}
+      //         hintText='Search For Sub Stations' 
+      //         style={styles.textField}
+      //         underlineShow={false}
+      //         onChange={onSearchValueOnChange}
+      //       />          
+      //       <RaisedButton
+      //         label='Search'
+      //         secondary={true}             
+      //         onTouchTap={onTouchTap}
+      //         labelPosition='after'
+      //         primary={true}
+      //         icon={<ActionSearch/>}
+      //       /> 
+      //   </ToolbarGroup>
+      // </Toolbar>
     );
   }
 }
