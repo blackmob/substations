@@ -13,6 +13,11 @@
   "paths": {
     "/substation": {
       "get": {
+        "security": [
+          {
+            "oauth": []
+          }
+        ],
         "x-swagger-router-controller": "Substations",
         "operationId": "getSubstations",
         "tags": [
@@ -35,6 +40,12 @@
               "$ref": "#/definitions/Substation"
             }
           },
+          "401": {
+            "description": "Not authenticated"
+          },
+          "403": {
+            "description": "Access token does not have the required scope"
+          },
           "default": {
             "description": "Invalid request.",
             "schema": {
@@ -42,6 +53,17 @@
             }
           }
         }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "oauth": {
+      "type": "oauth2",
+      "authorizationUrl": "https://accounts.google.com/signin/oauth",
+      "flow": "implicit",
+      "scopes": {
+        "write": "write pets",
+        "read": "read pets"
       }
     }
   },

@@ -24,8 +24,10 @@ winston.add(winston.transports.File, {
 swagger_tools_1.initializeMiddleware(swaggerDoc, function (middleware) {
     var app = createServer();
     app.use(cors());
+    //setupAuth(app);
     // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
     app.use(middleware.swaggerMetadata());
+    //app.use(setupSwaggerSecurity(middleware));
     // Validate Swagger requests
     app.use(middleware.swaggerValidator());
     // Route validated requests to appropriate controller
@@ -37,4 +39,36 @@ swagger_tools_1.initializeMiddleware(swaggerDoc, function (middleware) {
         console.log('Your server is listening on port %d (http://localhost:%d)', serverPort, serverPort);
     });
 });
+// function setupSwaggerSecurity(middleware) {
+//   return middleware.swaggerSecurity({
+//     oauth: (req, authOrSecDef, scopes, callback) => {
+//       passport.authenticate('jwt', { session: false }, (err, user, info) => {
+//         if(err) {return callback(new Error('Error in passport authenticate'));}
+//         if(!user) {return callback(new Error('Failed to authenticate oAuth token'));}
+//         req.user = user;
+//         return callback();
+//       })(req, null, callback);
+//     }
+//   });
+// };
+// let opts = {
+//   jwtFromRequest: ExtractJwt.fromAuthHeader(),
+//   secretOrKey: 'RnKE245w9Zr926XZmIeQ4vMZ'
+// };
+function verify(payload, done) {
+    var id = payload.sub;
+    return id !== undefined;
+    /*
+    User.findOne({ id: jwt_payload.sub }, (err, user) => {
+        if (err) return done(err, false);
+        if (user) {
+          done(null, user);
+        } else {
+          done(null, false);
+          // or you could create a new account
+        }
+    });
+    */
+}
+;
 //# sourceMappingURL=index.js.map

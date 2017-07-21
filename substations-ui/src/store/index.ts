@@ -3,9 +3,17 @@ import * as injectTapEventPlugin from 'react-tap-event-plugin';
 import { applyMiddleware, compose, createStore } from 'redux';
 
 import { Store } from 'redux';
+import { browserHistory } from 'react-router';
 import logger from 'redux-logger';
 import reducer from '../reducers/';
+import { routerMiddleware } from 'react-router-redux'
 import thunk from 'redux-thunk';
+
+//import userManager from '../auth/userManager';
+
+let syncHistoryWithStore = require('react-router-redux').syncHistoryWithStore;
+//let createOidcMiddleware = require('redux-oidc').default;
+//const oidcMiddleware = createOidcMiddleware(userManager, null, true, '/callback');
 
 const enableHotLoader = (store: any) => {
 
@@ -19,6 +27,10 @@ const enableHotLoader = (store: any) => {
 
 declare var window: Window;
 
+const reduxRouterMiddleware = routerMiddleware(browserHistory);
+
+export let history: any;
+
 export default configureStore();
 
 export function configureStore() {
@@ -27,7 +39,9 @@ export function configureStore() {
     injectTapEventPlugin();
 
     const finalCreateStore = compose(
+        //applyMiddleware(oidcMiddleware),
         applyMiddleware(thunk),
+        applyMiddleware(reduxRouterMiddleware),
         applyMiddleware(logger as any),
     )(createStore);
 
@@ -35,5 +49,8 @@ export function configureStore() {
         reducer,
         window.devToolsExtension ? window.devToolsExtension() : undefined) as Store<Root>;
     enableHotLoader(store);
+
+    history = syncHistoryWithStore(browserHistory, store)   
+
     return store;
 }

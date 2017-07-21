@@ -4,14 +4,7 @@ import ActionSearch from 'material-ui/svg-icons/action/search';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
-
-//import { Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle } from 'material-ui/Toolbar';
-
-
-
-//import FontIcon from 'material-ui/FontIcon';
-
-
+import { cyan200 } from 'material-ui/styles/colors';
 
 const styles = {
   textField: {
@@ -36,49 +29,25 @@ export default class Nav extends React.Component<NavProps, any> {
     return (
     <AppBar
         style={{ position: "fixed" }} 
-        title={<span>Sub stations</span>}
+        title={<span>Substations</span>}        
         iconElementRight={
-            <div><TextField 
+            <div><TextField               
+              inputStyle={{height: "36", backgroundColor: cyan200}}
               value={filter}
-              hintText='Search For Sub Stations' 
+              hintText='Search For Substations' 
               style={styles.textField}
               underlineShow={false}
               onChange={onSearchValueOnChange}
-            />          
+            />
             <RaisedButton
               label='Search'
               secondary={true}             
               onTouchTap={onTouchTap}
               labelPosition='after'
               primary={true}
-              icon={<ActionSearch/>}
-            /></div>
-        }
+              icon={<ActionSearch/>}/></div> }
       >
       </AppBar>
-
-      // <Toolbar>
-      //   <ToolbarGroup>
-      //     <ToolbarTitle text='Substations' />
-      //     <FontIcon className='muidocs-icon-custom-sort' />
-      //     <ToolbarSeparator />
-      //       <TextField 
-      //         value={filter}
-      //         hintText='Search For Sub Stations' 
-      //         style={styles.textField}
-      //         underlineShow={false}
-      //         onChange={onSearchValueOnChange}
-      //       />          
-      //       <RaisedButton
-      //         label='Search'
-      //         secondary={true}             
-      //         onTouchTap={onTouchTap}
-      //         labelPosition='after'
-      //         primary={true}
-      //         icon={<ActionSearch/>}
-      //       /> 
-      //   </ToolbarGroup>
-      // </Toolbar>
     );
   }
 }

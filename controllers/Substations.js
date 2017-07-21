@@ -8,7 +8,7 @@ exports.getSubstations = function (req, res, next) {
     getSubStations(req.swagger.params.location.value).then(function (data) {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(data));
-        winston.info('getSubstations:Response', data);
+        //winston.info('getSubstations:Response',data);
     }).catch(function (e) {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(e || {}, null, 2));

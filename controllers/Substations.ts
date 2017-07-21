@@ -7,11 +7,11 @@ import * as ioredis from 'ioredis';
 import * as st from "swagger-tools";
 import * as winston from 'winston';
 
-export const getSubstations = (req, res, next) => { 
+export const getSubstations = (req , res, next) => { 
       getSubStations(req.swagger.params.location.value).then(data=> {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(data)); 
-        winston.info('getSubstations:Response',data);
+        //winston.info('getSubstations:Response',data);
       }).catch((e)=> {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(e || {}, null, 2));

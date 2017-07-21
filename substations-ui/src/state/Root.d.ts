@@ -1,3 +1,4 @@
 interface Root {
-    substations : SubStations    
+    substations : SubStations,   
+    oidc : User 
 }

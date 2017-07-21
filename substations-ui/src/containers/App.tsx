@@ -53,18 +53,18 @@ class App extends React.Component<AppProps, any> {
       case 'RED':
         return (
         <TableRowColumn>
-          <FontIcon className='material-icons' color={red900}>sentiment_dissatisfied</FontIcon> {classification}
+          <FontIcon className='material-icons' color={red900}>sentiment_dissatisfied</FontIcon> 
         </TableRowColumn>);
       case 'AMBER':
         return (
         <TableRowColumn>
-          <FontIcon className='material-icons' color={orange900}>sentiment_neutral</FontIcon> {classification}
+          <FontIcon className='material-icons' color={orange900}>sentiment_neutral</FontIcon> 
         </TableRowColumn>);
       case 'GREEN':
       default:
         return (
         <TableRowColumn>
-          <FontIcon className='material-icons' color={green900}>sentiment_satisfied</FontIcon> {classification}
+          <FontIcon className='material-icons' color={green900}>sentiment_satisfied</FontIcon> 
         </TableRowColumn>);
     }
   }
